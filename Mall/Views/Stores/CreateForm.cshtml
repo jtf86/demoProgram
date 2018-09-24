@@ -1,0 +1,15 @@
+@using Mall.Models;
+
+<h3>Add a new store</h3>
+<form action="/stores/add" method="post">
+    <label for="name">Store name:</label>
+    <input name="name" type="text" />
+    <label for="productId">Select Product</label>
+    <select name="productId">
+        @foreach(Product item in Product.GetAll())
+        {
+            <option value="@item.GetId()">@item.GetDescription()</option>
+        }
+    </select>
+    <button type="submit" class="btn btn-info">Submit</button>
+</form>

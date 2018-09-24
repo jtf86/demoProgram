@@ -1,0 +1,13 @@
+@using Mall.Models;
+
+<h2>I am the products index</h2>
+
+<ul>
+    @foreach(Product item in Model)
+    {
+        <li>@item.GetDescription() - ID: @item.GetId()</li>
+    }
+
+</ul>
+
+<h3><a href="/products/add">Add a new product</a></h3>

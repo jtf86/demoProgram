@@ -1,0 +1,10 @@
+<h2>All Stores</h2>
+
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>@item.GetName(), which sells @item.GetProduct().GetDescription()</li>
+    }
+</ul>
+
+<h4>Add a new <a href="/stores/add">Store</a></h4>

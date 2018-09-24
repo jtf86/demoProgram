@@ -1,5 +1,5 @@
 using MySql.Data.MySqlClient;
-
+using Mall;
 
 namespace Mall.Models
 {

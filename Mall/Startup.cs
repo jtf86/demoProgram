@@ -42,6 +42,6 @@ namespace Mall
 
     public class DBConfiguration
     {
-        public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=demo";
+        public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=mall";
     }
 }
