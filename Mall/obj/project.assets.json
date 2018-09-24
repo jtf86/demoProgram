@@ -9733,11 +9733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jfran\\Desktop\\Demo\\Mall\\Mall.csproj",
+      "projectUniqueName": "c:\\Users\\jfran\\Desktop\\Demo\\Mall\\Mall.csproj",
       "projectName": "Mall",
-      "projectPath": "C:\\Users\\jfran\\Desktop\\Demo\\Mall\\Mall.csproj",
+      "projectPath": "c:\\Users\\jfran\\Desktop\\Demo\\Mall\\Mall.csproj",
       "packagesPath": "C:\\Users\\jfran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jfran\\Desktop\\Demo\\Mall\\obj\\",
+      "outputPath": "c:\\Users\\jfran\\Desktop\\Demo\\Mall\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jfran\\AppData\\Roaming\\NuGet\\NuGet.Config",
